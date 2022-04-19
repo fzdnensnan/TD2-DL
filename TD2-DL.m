@@ -142,7 +142,7 @@ function [muGraph,sigmaGraph,probGraph,nodeNum] = loadGraphFromFile(network)
         muGraph(startState,endState) = xlx(i,4);
         sigmaGraph(startState,endState) = xlx(i,5);
         probGraph(startState,endState) = xlx(i,6);
-    %     probList(i) = rand();   %随机生成通行概率
+    %     probList(i) = rand();   %脣忙禄煤脡煤鲁脡脥篓脨脨赂脜脗脢
     %     probGraph(Num(i,1),Num(i,2)) = probList(i);
     end
 end
@@ -161,7 +161,7 @@ function [fullyDecisionListMeanStd,outputCell] = initStateActionsCell(muGraph,tr
     for i = 1 : nodeNum
 %         VfuncList(i) = 0;
         if i ~=destinationNode && shortestPathList(i) ~= inf
-            bufQVlist = [];        %Q(s,a)、J(s,a)、
+            bufQVlist = [];        %Q(s,a)隆垄J(s,a)隆垄
             for j = 1 : nodeNum
                if  muGraph(i,j)~=0 && shortestPathList(j) ~= inf
 %                    bufQPJ.Q = 0;
