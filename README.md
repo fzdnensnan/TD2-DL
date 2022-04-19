@@ -1,5 +1,5 @@
 # TD2-DL
-Matlab code for TD2-DL
+Matlab code for TD2-DL.
 
 ## Description
 TD2-DL.m, offline training progress of the method we proposed.
