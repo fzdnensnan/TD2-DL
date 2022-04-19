@@ -10,5 +10,5 @@ We construct the network data into .xlsx, with the mean and variance of travel c
 ## Notes
 - The default representation of networks is the adjacency matrix.
 - The default sampling model is "Gaussian".
-- If you need an emulator, please visit the repository https://github.com/fzdnensnan/TD2-DL.
+- If you need an emulator, please visit the repository https://github.com/fzdnensnan/DDP-DL.
 - Contact details: shiruiaa@foxmail.com
